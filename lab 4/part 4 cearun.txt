@@ -1,0 +1,254 @@
+================================================================================================
+CASE 1:
+
+
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA2, FEBRUARY 5, 2004
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+ prob case=19843021  hp p(psia)=100
+ o/f=2.333
+ reac
+  fuel  HTPB            wt%= 66.7 t,k= 298.15
+  fuel  AL(cr)          wt%= 33.3 t,k= 298.15
+  oxid  NH4CLO4(I)      wt%= 100.0 t,k=  298.15
+   output short
+ output trace= 1e-5
+ end
+
+         THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+
+                                   PRESSURES
+
+ CASE = 19843021       
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)     KJ/KG-MOL      K  
+ FUEL        HTPB                         0.6670000      -250.000    298.150
+ FUEL        AL(cr)                       0.3330000         0.000    298.150
+ OXIDANT     NH4CLO4(I)                   1.0000000   -295767.000    298.150
+
+ O/F=    2.33300  %FUEL= 30.003000  R,EQ.RATIO= 2.145750  PHI,EQ.RATIO= 3.071286
+
+ THERMODYNAMIC PROPERTIES
+
+ P, BAR            6.8947
+ T, K             2633.39
+ RHO, KG/CU M    7.1853-1
+ H, KJ/KG        -1762.61
+ U, KJ/KG        -2722.17
+ G, KJ/KG        -30836.2
+ S, KJ/(KG)(K)    11.0404
+
+ M, (1/n)          22.818
+ MW, MOL WT        21.908
+ (dLV/dLP)t      -1.00366
+ (dLV/dLT)p        1.0792
+ Cp, KJ/(KG)(K)    2.6476
+ GAMMAs            1.1857
+ SON VEL,M/SEC     1066.7
+
+ MOLE FRACTIONS
+
+ ALCL            6.8832-4
+ ALCL2           4.5905-5
+ ALCL3           5.5135-5
+ ALOCL           2.2484-5
+ ALOH            2.9881-4
+ ALOHCL          3.2497-5
+ ALOHCL2         1.4530-4
+ AL(OH)2CL       2.3614-5
+ *CO             3.1162-1
+ *CO2            9.6383-3
+ *CL             2.4105-3
+ *H              9.8420-3
+ HCL             1.2678-1
+ *H2             3.5975-1
+ H2O             7.2920-2
+ *NO             1.4964-5
+ *N2             6.5248-2
+ *OH             5.2360-4
+ AL2O3(L)        3.9895-2
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+ 
+ ============================================================================================
+ CASE 2:
+ 
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA2, FEBRUARY 5, 2004
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+ prob case=12123247  hp p(psia)=100
+ o/f=2.333
+ reac
+  fuel  HTPB            wt%= 50.0 t,k= 298.15
+  fuel  AL(cr)          wt%= 50.0 t,k= 298.15
+  oxid  NH4CLO4(I)      wt%= 100.0 t,k=  298.15
+   output short
+ output trace= 1e-5
+ end
+
+         THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+
+                                   PRESSURES
+
+ CASE = 12123247       
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)     KJ/KG-MOL      K  
+ FUEL        HTPB                         0.5000000      -250.000    298.150
+ FUEL        AL(cr)                       0.5000000         0.000    298.150
+ OXIDANT     NH4CLO4(I)                   1.0000000   -295767.000    298.150
+
+ O/F=    2.33300  %FUEL= 30.003000  R,EQ.RATIO= 1.876431  PHI,EQ.RATIO= 2.582700
+
+ THERMODYNAMIC PROPERTIES
+
+ P, BAR            6.8947
+ T, K             3086.70
+ RHO, KG/CU M    6.9780-1
+ H, KJ/KG        -1762.48
+ U, KJ/KG        -2750.54
+ G, KJ/KG        -34074.4
+ S, KJ/(KG)(K)    10.4681
+
+ M, (1/n)          25.975
+ MW, MOL WT        24.341
+ (dLV/dLP)t      -1.01841
+ (dLV/dLT)p        1.3621
+ Cp, KJ/(KG)(K)    4.3614
+ GAMMAs            1.1335
+ SON VEL,M/SEC     1058.3
+
+ MOLE FRACTIONS
+
+ *AL             1.0538-4
+ ALCL            4.7473-3
+ ALCL2           1.8956-4
+ ALCL3           5.2686-5
+ ALH             1.4229-5
+ *ALO            1.3794-4
+ ALOCL           2.8975-4
+ ALOH            3.3378-3
+ ALOHCL          2.3105-4
+ ALOHCL2         2.2752-4
+ AL(OH)2         5.6423-5
+ AL(OH)2CL       6.3622-5
+ AL(OH)3         1.6603-5
+ AL2O            3.7355-5
+ AL2O2           1.0021-5
+ *CO             2.5586-1
+ *CO2            1.1717-2
+ *CL             1.1810-2
+ *H              4.1240-2
+ HCL             1.2684-1
+ *H2             2.9809-1
+ H2O             1.0340-1
+ *NO             2.6582-4
+ *N2             7.2372-2
+ *O              4.2333-4
+ *OH             5.4795-3
+ *O2             5.7759-5
+ AL2O3(L)        6.2874-2
+ =======================================================================
+ 
+ CASE 3:
+ 
+ 
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA2, FEBRUARY 5, 2004
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+ prob case=15154095  hp p(psia)=100
+ o/f=2.333
+ reac
+  fuel  HTPB            wt%= 33.3 t,k= 298.15
+  fuel  AL(cr)          wt%= 66.7 t,k= 298.15
+  oxid  NH4CLO4(I)      wt%= 100.0 t,k=  298.15
+   output short
+ output trace= 1e-5
+ end
+
+         THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+
+                                   PRESSURES
+
+ CASE = 15154095       
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)     KJ/KG-MOL      K  
+ FUEL        HTPB                         0.3330000      -250.000    298.150
+ FUEL        AL(cr)                       0.6670000         0.000    298.150
+ OXIDANT     NH4CLO4(I)                   1.0000000   -295767.000    298.150
+
+ O/F=    2.33300  %FUEL= 30.003000  R,EQ.RATIO= 1.606529  PHI,EQ.RATIO= 2.094114
+
+ THERMODYNAMIC PROPERTIES
+
+ P, BAR            6.8947
+ T, K             3398.21
+ RHO, KG/CU M    7.2321-1
+ H, KJ/KG        -1762.35
+ U, KJ/KG        -2715.70
+ G, KJ/KG        -35134.7
+ S, KJ/(KG)(K)     9.8206
+
+ M, (1/n)          29.637
+ MW, MOL WT        27.024
+ (dLV/dLP)t      -1.04813
+ (dLV/dLT)p        1.8896
+ Cp, KJ/(KG)(K)    6.7209
+ GAMMAs            1.1122
+ SON VEL,M/SEC     1029.7
+
+ MOLE FRACTIONS
+
+ *AL             5.4462-4
+ ALCL            9.6115-3
+ ALCL2           3.0429-4
+ ALCL3           4.0731-5
+ ALH             4.8480-5
+ ALHCL           1.3419-5
+ *ALO            1.1545-3
+ ALOCL           1.0088-3
+ ALOH            9.4957-3
+ ALOHCL          5.3967-4
+ ALOHCL2         2.4940-4
+ ALO2            2.1049-5
+ AL(OH)2         1.9223-4
+ AL(OH)2CL       1.0151-4
+ AL(OH)3         3.5878-5
+ AL2O            2.3139-4
+ AL2O2           1.0603-4
+ *CO             1.8495-1
+ *CO2            1.2891-2
+ *CL             2.8350-2
+ CLO             1.8730-5
+ CL2             1.9923-5
+ *H              8.0586-2
+ HALO2           3.9643-5
+ HCL             1.2006-1
+ *H2             2.2576-1
+ H2O             1.2782-1
+ *N              1.3815-5
+ *NO             1.5275-3
+ *N2             7.9725-2
+ *O              4.1399-3
+ *OH             2.1271-2
+ *O2             9.0604-4
+ AL2O3(L)        8.8169-2
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
